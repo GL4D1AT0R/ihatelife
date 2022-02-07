@@ -1,0 +1,11 @@
+const App = () =>{
+    return(
+        <ChatEngine
+             height="100vh"
+             projectID="06741424-0df4-46cc-8164-3427fb0de3d4"
+             userName="Caku"
+             userSecret="123456789"
+             renderChatFeed={(chatAppProps)=><ChatFeed{...chatAppProps} />}
+        />
+    );
+}
